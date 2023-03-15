@@ -1,0 +1,232 @@
+@media (max-width: 767px){
+    /*---------------
+        Main styles
+    ---------------*/
+    .cont{
+        padding: 0 15px;
+    }
+
+
+    .main_title{
+        font-size: 50px;
+    }
+
+
+    .swiper-pagination{
+        display: flex;
+    }
+
+    /*---------------
+        Header
+    ---------------*/
+    header .advantages{
+        position: absolute;
+        z-index: 50;
+        top: 135px;
+        right: 30px;
+
+        display: block;
+
+        width: 110px;
+    }
+
+    header .advantages .item + .item{
+        margin-top: 17px;
+        margin-left: 0;
+    }
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .main_title{
+        max-width: 250px;
+    }
+
+    .first_section .swiper-container{
+        margin-top: 50px;
+    }
+
+
+    .first_section .swiper-container .slider-button-prev,
+    .first_section .swiper-container .slider-button-next{
+        top: auto;
+        bottom: -14px;
+
+        display: flex;
+
+        margin-top: 0;
+
+        border: none;
+    }
+
+    .first_section .swiper-container .slider-button-prev:hover,
+    .first_section .swiper-container .slider-button-next:hover{
+        background: none;
+    }
+
+    .first_section .swiper-container .slider-button-prev:hover svg,
+    .first_section .swiper-container .slider-button-next:hover svg{
+        color: #fff;
+    }
+
+    .first_section .swiper-container .slider-button-prev{
+        left: -18px;
+    }
+
+    .first_section .swiper-container .slider-button-next{
+        right: -18px;
+    }
+
+    .first_section .slide,
+    .first_section .slide.second{
+        max-width: 100%;
+    }
+
+    .first_section .slide .thumb{
+        width: 420px;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .first_section .slide.second .thumb{
+        position: absolute;
+        top: 30px;
+        left: 104px;
+
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .first_section .slide .data{
+        margin-top: -20px;
+    }
+
+    .first_section .slide.second .data{
+        display: flex;
+        flex-direction: column;
+
+        height: 100%;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .first_section .slide.second .data .link_btn{
+        margin-top: auto;
+        padding-top: 30px;
+    }
+
+
+    .speed_grit .main_title{
+        position: relative;
+        z-index: 10;
+
+        max-width: 200px;
+    }
+
+    .speed_grit .img{
+        top: 50px;
+
+        width: 442px;
+    }
+
+    .speed_grit .img img{
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    .speed_grit .items{
+        margin-top: 142px;
+    }
+
+    .speed_grit .item{
+        padding-left: 140px;
+    }
+
+
+    .no_road .box{
+        padding: 35px 0 245px;
+    }
+
+    .no_road .items{
+        --margin-left: 30px;
+    }
+
+    .no_road .bg{
+        bottom: -169px;
+        left: -214px;
+
+        width: 750px;
+    }
+
+
+    .product_info .left{
+        width: 100%;
+    }
+
+    .product_info .right{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .product_info .images{
+        margin-bottom: 45px;
+    }
+
+    .product_info .images .big{
+        width: 100%;
+    }
+
+    .product_info .images .big .slider{
+        overflow: hidden;
+    }
+
+
+    .additional_reviews .wrap_title .main_title{
+        max-width: 260px;
+    }
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer{
+        padding: 50px 0 60px;
+    }
+
+    footer .columns{
+        --margin-bottom: 30px;
+
+        --items: 1;
+    }
+
+    footer .column{
+        width: 100%;
+    }
+
+    footer .column:nth-child(2){
+        order: 2;
+    }
+
+    footer .copy.desk{
+        display: none;
+    }
+
+    footer .copy.mob{
+        display: block;
+
+        margin-top: 50px;
+    }
+
+    footer .tel{
+        margin-bottom: 20px;
+    }
+
+    footer .menu{
+        flex-direction: row;
+
+        margin-top: 0;
+        padding-left: 0;
+    }
+}
