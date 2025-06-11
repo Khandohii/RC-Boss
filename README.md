@@ -1,22 +1,27 @@
-# RC-Boss
+# RC‑Boss
 
-Responsive HTML-layout landing page for the sale of radio-controlled cars.
+Responsive landing page for promoting and selling RC (radio-controlled) cars.  
+Developed as a commercial project for a client.
 
-:film_strip: Demo - [RC-Boss](https://khandohii.github.io/RC-Boss/)
+## Features
 
-## :computer: Functionality:
-:white_check_mark: Responsive layout
+- Fully responsive layout built with HTML and CSS Flexbox
+- Smooth anchor-based scrolling navigation
+- Product slider showcasing various RC car models
+- Real-time price calculation based on quantity selection
+- JavaScript-driven accordion for expanding/collapsing content
+- Mobile-friendly hamburger menu
 
-:white_check_mark: Scroll by anchor
+## Technologies
 
-:white_check_mark: Tabs in product section
+- HTML
+- CSS (Flexbox)
+- Vanilla JavaScript
 
-:white_check_mark: CSS Flexbox
+## About the project
 
-:white_check_mark: Slider in product section
+This landing page was developed as a commercial project for a client to promote and sell radio-controlled cars online. It demonstrates front-end development skills focused on responsive design, interactive UI components, and optimized user experience for e-commerce purposes.
 
-:white_check_mark: Price counting by amount changing
+## Live Demo
 
-:white_check_mark: Accordion by native js
-
-:white_check_mark: Mobile menu
+*(You can add the GitHub Pages link here if deployed, or leave this section out.)*
