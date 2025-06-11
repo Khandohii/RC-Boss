@@ -24,4 +24,4 @@ This landing page was developed as a commercial project for a client to promote 
 
 ## Live Demo
 
-*(You can add the GitHub Pages link here if deployed, or leave this section out.)*
+[*https://khandohii.github.io/RC-Boss/*](https://khandohii.github.io/RC-Boss/)
